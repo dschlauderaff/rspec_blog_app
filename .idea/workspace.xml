@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4caef09b-8f87-4a52-a625-57ab7a718397" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/features/show_article_spec.rb" afterPath="$PROJECT_DIR$/spec/features/show_article_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/features/listing_article_spec.rb" afterPath="$PROJECT_DIR$/spec/features/listing_article_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -91,11 +91,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="show_article_spec.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="show_article_spec.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/features/show_article_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
                   <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="listing_article_spec.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/features/listing_article_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
                   <folding />
                 </state>
               </provider>
@@ -109,7 +119,7 @@
             <entry file="file://$PROJECT_DIR$/spec/features/editing_article_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
-                  <caret line="5" column="19" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="19" />
+                  <caret line="5" column="19" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -135,7 +145,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Guardfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/spec/features/listing_article_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/spec/requests/articles_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/delete_article_spec.rb" />
@@ -160,6 +169,7 @@
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/spec/features/editing_article_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/show_article_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/listing_article_spec.rb" />
       </list>
     </option>
   </component>
@@ -417,12 +427,12 @@
       <updated>1519339241657</updated>
       <workItem from="1519339242742" duration="3761000" />
       <workItem from="1519404729981" duration="9852000" />
-      <workItem from="1519653635847" duration="12615000" />
+      <workItem from="1519653635847" duration="12718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26228000" />
+    <option name="totallyTimeSpent" value="26331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -600,14 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/listing_article_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -832,6 +834,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/listing_article_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
           <folding />
         </state>
       </provider>
