@@ -49,7 +49,8 @@ class ArticlesController < ApplicationController
 
   def destroy
     if @article.user != current_user
-      flash[:danger] = 'You can only delete your own article.'
+      # byebug
+      flash[:alert] = 'You can only delete your own article.'
       redirect_to root_path
     else
       if @article.destroy
